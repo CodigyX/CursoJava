@@ -44,4 +44,16 @@ persona1.saludar(); // "Hola, soy Ana"
  * x += 5;                 // Equivale a x = x + 5 (x = 15)
  * String nombre = "Ana";  // Asignación a String
  */
+
+/** Operadores de incremento/decremento [Incremental ++], [Decremental ++]
+ * int contador = 0;
+ * contador++;          // Incrementa a 1 (post-incremento)
+ * int y = --contador;  // Incrementa a 0 (pre-decremento)
+ */
+
+/** Operadores ternarios (permiten realizar operaciones condicionales en una sola línea) [| Condicional ? : |]
+ * int edad 18;
+ * String mensaje = (edad >= 18) ? "Mayor" : "Menor"; // "Mayor"
+ *
+ */
 }
