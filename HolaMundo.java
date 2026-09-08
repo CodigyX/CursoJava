@@ -38,4 +38,10 @@ persona1.saludar(); // "Hola, soy Ana"
  * boolean orLogico = (true || false);  //true
  * boolean notLogico = !true;           //false
  */
+
+/** Operadores de asignación [Asignación básica =], [Asignación y suma +=], [Asignación y resta -=], [Asignación y multiplicación *=], [Asignación y división /=]
+ * int x = 10;             // Asignación básica
+ * x += 5;                 // Equivale a x = x + 5 (x = 15)
+ * String nombre = "Ana";  // Asignación a String
+ */
 }
