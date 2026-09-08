@@ -56,4 +56,13 @@ persona1.saludar(); // "Hola, soy Ana"
  * String mensaje = (edad >= 18) ? "Mayor" : "Menor"; // "Mayor"
  *
  */
+
+//CASOS COMUNES DE CASTING
+/** Entre tipos numéricos primitivos (Implicito [Widening]) ó (Explicito [Widening][Narrowing])
+ * int x = 10;
+ * double y = x; // ok (I)
+ *
+ * double z = 10.5;
+ * int n = (int) z; // n = 10
+  */
 }
