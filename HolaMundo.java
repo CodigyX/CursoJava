@@ -27,8 +27,15 @@ persona1.saludar(); // "Hola, soy Ana"
  */
 
 /** Operadores de comparación (igualdad == | desigualdad != | mayor que > | menor que < | mayor o igual que >= | menor o igual que <= )
+ * Booleano siempre devuelve true o false
  * boolean esIgual = (5 == 5);      // true
  * boolean esMayor = (10 > 20);     // false
  * boolean esDiferente = (7 != 3);  // true
+ */
+
+/** Operadores lógicos [Conjunción (AND) &&], [Disyunción (OR) ||], [Negación (NOT) !]
+ * boolean andLogico = (true && false); //false
+ * boolean orLogico = (true || false);  //true
+ * boolean notLogico = !true;           //false
  */
 }
