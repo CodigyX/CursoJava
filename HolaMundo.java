@@ -2,8 +2,8 @@ public class HolaMundo {
         public static void main(String[] args) {
                 System.out.println("Hola mundo");
 // Uso
-Persona persona1 = new Persona ("Ana", 25);
-persona1.saludar(); // "Hola, soy Ana"
+                Persona persona1 = new Persona("Ana", 25);
+                persona1.saludar(); // "Hola, soy Ana"
         }
 
 /** lenght() -  substring() - equals()
@@ -58,11 +58,39 @@ persona1.saludar(); // "Hola, soy Ana"
  */
 
 //CASOS COMUNES DE CASTING
-/** Entre tipos numéricos primitivos (Implicito [Widening]) ó (Explicito [Widening][Narrowing])
+/** Entre tipos numéricos primitivos (Implicito [Widening]) ó (Explicito [Narrowing])
  * int x = 10;
  * double y = x; // ok (I)
  *
  * double z = 10.5;
- * int n = (int) z; // n = 10
+ * int n = (int) z; // n = 10 (E) puede haber perdida de información
+ */
+
+/** Entre clases (objetos)
+ * Upcasting (automático)
+ *
+ * Downcasting (explícito)
+ *
+ */
+
+/** Conversión: entre String y tipos numéricos
+ * String edadTexto = "25"
+ * int edad = Integer.parseInt(edadTexto) //Clase envoltorio
+ *
+ * int numero = 123;
+ * String texto = String.valueOf(numero);
+ * System.out.println(texto); // "123"
+ */
+
+//04 Entrada de datos [Scanner],
+/** Importar la clase
+ * import java.util.Scanner;
+ *
+ * Scanner sc = new Scanner(System.in);
+ * System.out.println("Ingresa tu nombre: ");
+ * String nombre = sc.nextline();
+ *
+ * sc.close();
   */
+
 }
