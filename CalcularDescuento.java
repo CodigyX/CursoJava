@@ -9,6 +9,6 @@ public class CalcularDescuento {
         if (total > 1000){
             total = (total * 85 / 100);
         }
-                System.out.print(total);
+        System.out.print(total);
     }
 }
