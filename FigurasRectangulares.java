@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class FigurasRectangulares {
+    public static void main (String [] args){
+        Scanner sc = new Scanner(System.in);
+
+        long area = sc.nextLong();
+        int rectangulo = sc.nextInt();
+
+
+    }
+
+}
