@@ -65,4 +65,16 @@ public class GestorDeTareas {
         }
         return totalPrioridad;
     }
+
+    // Clase auxiliar para retornar múltiples valores
+    public static class Resultado {
+        int totalPrioridad;
+        Actividad tarea;
+
+        public Resultado(int totalPrioridad, Actividad tarea) {
+            this.totalPrioridad = totalPrioridad;
+            this.tarea = tarea;
+
+        }
+    }
 }
