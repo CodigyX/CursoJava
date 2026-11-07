@@ -1,3 +1,5 @@
+package OmegaUP;
+
 import java.util.Scanner;
 
 public class AContarLapices {
