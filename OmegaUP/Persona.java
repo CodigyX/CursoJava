@@ -1,3 +1,5 @@
+package OmegaUP;
+
 // Definición de la clase
 public class Persona {
     String nombre;
