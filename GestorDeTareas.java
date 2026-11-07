@@ -22,7 +22,7 @@ public class GestorDeTareas {
     public static void mostrarMenu() {
         System.out.println("==== Gestor de Tareas ===");
         System.out.println("1.- Agregar tarea");
-        System.out.println("2.- Ver tareas (pendiente)");
+        System.out.println("2.- Ver ultima tarea");
         System.out.println("3.- Salir");
     }
 
@@ -38,7 +38,11 @@ public class GestorDeTareas {
             case 1:
                 return agregarTarea(sc, totalPrioridad);
             case 2:
-                System.out.println("Función en desarrollo...");
+                if (tarea != null) {
+                    tarea.ejecutar();
+                } else {
+                    System.out.println("Aún no hay tareas registradas.");
+                }
                 break;
             case 3:
                 System.out.println("¡Hasta luego!");
